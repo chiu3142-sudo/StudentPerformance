@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load("student_performance_model.pkl")
+model = joblib.load("student_performance_dataset.pkl")
 
 st.title("🎓 Student Performance Prediction")
 st.write("Enter the input and hit predict to get estimated final marks")
